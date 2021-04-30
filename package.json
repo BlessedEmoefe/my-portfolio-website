@@ -1,6 +1,6 @@
 {
   "homepage": "https://developerfolio.js.org/",
-  "name": "Blessed Portfoliio",
+  "name": "blessed-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
