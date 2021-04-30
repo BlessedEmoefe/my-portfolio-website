@@ -100,7 +100,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",
@@ -190,7 +190,7 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -223,7 +223,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -285,7 +285,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -329,7 +329,7 @@ const talkSection = {
       event_url: ""
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -342,7 +342,7 @@ const podcastSection = {
   podcast: [
     ""
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {

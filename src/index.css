@@ -12,6 +12,21 @@
     url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Rubik-Regular";
+  src: local("Rubik-Regular"),
+    url("./assets/fonts/Rubik-Regular.ttf") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LibreFranklin-Regular";
+  src: local("LibreFranklin-Regular"),
+    url("./assets/fonts/LibreFranklin-Regular.ttf") format("woff");
+  font-display: swap;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -22,7 +37,10 @@ body {
 }
 body {
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  font: 19px / 23px
+   /* "Rubik-Regular", */
+  "LibreFranklin-Regular",
+   "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
