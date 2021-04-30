@@ -13,21 +13,23 @@ export default function Profile() {
   function setProfileFunction(array) {
     setrepo(array);
   }
-  function getProfileData() {
-    const client = new ApolloClient({
-      uri: "https://api.github.com/graphql",
-      request: operation => {
-        operation.setContext({
-          headers: {
-            authorization: `Bearer ${openSource.githubConvertedToken}`
-          }
-        });
-      }
-    });
 
-    client
-      .query({
-        query: gql`
+  useEffect(() => {
+      function getProfileData() {
+        const client = new ApolloClient({
+          uri: "https://api.github.com/graphql",
+          request: (operation) => {
+            operation.setContext({
+              headers: {
+                authorization: `Bearer ${openSource.githubConvertedToken}`,
+              },
+            });
+          },
+        });
+
+        client
+          .query({
+            query: gql`
       {
         user(login:"${openSource.githubUserName}") { 
           name
@@ -37,21 +39,20 @@ export default function Profile() {
           location
         }
     }
-      `
-      })
-      .then(result => {
-        setProfileFunction(result.data.user);
-      })
-      .catch(function (error) {
-        console.log(error);
-        setProfileFunction("Error");
-        console.log(
-          "Because of this Error Contact Section is Showed instead of Profile"
-        );
-        openSource.showGithubProfile = "false";
-      });
-  }
-  useEffect(() => {
+      `,
+          })
+          .then((result) => {
+            setProfileFunction(result.data.user);
+          })
+          .catch(function (error) {
+            console.log(error);
+            setProfileFunction("Error");
+            console.log(
+              "Because of this Error Contact Section is Showed instead of Profile"
+            );
+            openSource.showGithubProfile = "false";
+          });
+      }
     if (openSource.showGithubProfile === "true") {
       getProfileData();
     }

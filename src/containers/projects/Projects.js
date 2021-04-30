@@ -16,64 +16,64 @@ export default function Projects() {
   // todo: remove useContex because is not supported
   const {isDark} = useContext(StyleContext);
   useEffect(() => {
-    getRepoData();
-  }, []);
-
-  function getRepoData() {
-    const client = new ApolloClient({
-      uri: "https://api.github.com/graphql",
-      request: operation => {
-        operation.setContext({
-          headers: {
-            authorization: `Bearer ${openSource.githubConvertedToken}`
-          }
-        });
-      }
-    });
-
-    client
-      .query({
-        query: gql`
-        {
-        user(login: "${openSource.githubUserName}") {
-          pinnedItems(first: 6, types: [REPOSITORY]) {
-            totalCount
-            edges {
-              node {
-                ... on Repository {
-                  name
-                  description
-                  forkCount
-                  stargazers {
-                    totalCount
-                  }
-                  url
-                  id
-                  diskUsage
-                  primaryLanguage {
+    function getRepoData() {
+      const client = new ApolloClient({
+        uri: "https://api.github.com/graphql",
+        request: operation => {
+          operation.setContext({
+            headers: {
+              authorization: `Bearer ${openSource.githubConvertedToken}`
+            }
+          });
+        }
+      });
+  
+      client
+        .query({
+          query: gql`
+          {
+          user(login: "${openSource.githubUserName}") {
+            pinnedItems(first: 6, types: [REPOSITORY]) {
+              totalCount
+              edges {
+                node {
+                  ... on Repository {
                     name
-                    color
+                    description
+                    forkCount
+                    stargazers {
+                      totalCount
+                    }
+                    url
+                    id
+                    diskUsage
+                    primaryLanguage {
+                      name
+                      color
+                    }
                   }
                 }
               }
             }
           }
         }
-      }
-        `
-      })
-      .then(result => {
-        setrepoFunction(result.data.user.pinnedItems.edges);
-        console.log(result);
-      })
-      .catch(function (error) {
-        console.log(error);
-        setrepoFunction("Error");
-        console.log(
-          "Because of this Error, nothing is shown in place of Projects section. Projects section not configured"
-        );
-      });
-  }
+          `
+        })
+        .then(result => {
+          setrepoFunction(result.data.user.pinnedItems.edges);
+          console.log(result);
+        })
+        .catch(function (error) {
+          console.log(error);
+          setrepoFunction("Error");
+          console.log(
+            "Because of this Error, nothing is shown in place of Projects section. Projects section not configured"
+          );
+        });
+    }
+    getRepoData();
+  }, []);
+
 
   function setrepoFunction(array) {
     setrepo(array);
