@@ -8,14 +8,14 @@ export default function socialMedia() {
   }
   return (
     <div className="social-media-div">
-      {socialMediaLinks.github ? (
+      {socialMediaLinks.youtube ? (
         <a
-          href={socialMediaLinks.github}
-          className="icon-button github"
+          href={socialMediaLinks.youtube}
+          className="icon-button youtube"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-github"></i>
+          <i className="fab fa-youtube"></i>
           <span></span>
         </a>
       ) : null}
@@ -28,42 +28,6 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-linkedin-in"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.gmail ? (
-        <a
-          href={`mailto:${socialMediaLinks.gmail}`}
-          className="icon-button google"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-google"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.gitlab ? (
-        <a
-          href={socialMediaLinks.gitlab}
-          className="icon-button gitlab"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-gitlab"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.facebook ? (
-        <a
-          href={socialMediaLinks.facebook}
-          className="icon-button facebook"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-facebook-f"></i>
           <span></span>
         </a>
       ) : null}
@@ -91,6 +55,17 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+      {socialMediaLinks.gmail ? (
+        <a
+          href={`mailto:${socialMediaLinks.gmail}`}
+          className="icon-button google"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-google"></i>
+          <span></span>
+        </a>
+      ) : null}
 
       {socialMediaLinks.medium ? (
         <a
@@ -100,6 +75,42 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-medium"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.github ? (
+        <a
+          href={socialMediaLinks.github}
+          className="icon-button github"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-github"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.gitlab ? (
+        <a
+          href={socialMediaLinks.gitlab}
+          className="icon-button gitlab"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-gitlab"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.facebook ? (
+        <a
+          href={socialMediaLinks.facebook}
+          className="icon-button facebook"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-facebook-f"></i>
           <span></span>
         </a>
       ) : null}

@@ -1,22 +1,43 @@
 .meter {
   height: 20px;
   position: relative;
-  background: rgb(243, 239, 239);
+  background: #fff;
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
   border-radius: 25px;
 }
-.meter > span {
+.meter-light-mode{
+   height: 20px;
+  position: relative;
+  background: #423645;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+
+}
+.progress{
   display: block;
   height: 100%;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: #aaa5ff;
+  background-color: #423645;
   position: relative;
   overflow: hidden;
 }
+.progress-light-mode{
+  display: block;
+  height: 100%;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #F6B179;
+  position: relative;
+  overflow: hidden;
+}
+
 .skill {
   line-height: 3.5vw;
 }

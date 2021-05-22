@@ -5,33 +5,36 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: true, // set to false to use static SVG
 };
 
 const greeting = {
   username: "Blessed Emoefe Onoriode",
   title: "Hello, I'm Blessed",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    `A passionate and creative Web and Mobile Developer 🚀 having over two years of experience in designing and building industry-standard applications according to specifications using many cool libraries and frameworks. 
+
+    Blessed is an avid learner and teacher with a huge desire for personal development, collaboration and team building.`
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
-  // gitlab: "https://gitlab.com/",
-  // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
-  display: true // Set true to display this section, defaults to false
+  github: "https://github.com/BlessedEmoefe",
+  youtube: "https://www.youtube.com/channel/UCpn-fJ3vOWvaZlG6OkY6z2w",
+  linkedin: "https://www.linkedin.com/in/blessed-emoefe-onoriode/",
+  gmail: "blessedemoefe1122334455@gmail.com",
+  gitlab: "https://gitlab.com/blemo",
+  medium: "https://medium.com/@blessedemoefe",
+  instagram: "https://www.instagram.com/blessed_emoefe/",
+  twitter: "https://twitter.com/blemo_onoriode",
+  facebook: false,
+  stackoverflow: false,
+  display: true, // Set true to display this section, defaults to false
 };
 
 // Skills Section
@@ -43,10 +46,18 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji(
+      "⚡ Lead teams and manage industry-standard project development from Design phase through production deployment"
+    ),
+    emoji(
+      "⚡ Mentor and train individuals with minute knowledge of software development to become professional software developers"
+    ),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    ),
+    emoji(
+      "⚡ Source for solutions to problems/challenges already being faced presently and possibly in the future inorder to impact lives positively"
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -55,46 +66,59 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fab fa-html5",
     },
     {
       skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
       skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      fontAwesomeClassname: "fab fa-sass",
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
     },
     {
       skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fab fa-react",
     },
+
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "wordpress",
+      fontAwesomeClassname: "fab fa-wordpress",
     },
     {
       skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fab fa-npm",
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node",
+    },
+    {
+      skillName: "mongodb",
+      fontAwesomeClassname: "fas fa-database",
     },
     {
       skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    }
+      fontAwesomeClassname: "fas fa-fire",
+    },
+    {
+      skillName: " ",
+      fontAwesomeClassname: " ",
+    },
+    {
+      skillName: " ",
+      fontAwesomeClassname: " ",
+    },
+    {
+      skillName: "& Many Other Tecnhnologies",
+      fontAwesomeClassname: "fas fa-ellipsis-h",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -103,25 +127,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "National Open University of Nigeria",
+      logo: require("./assets/images/Noun.png"),
+      subHeader: "Anticipating Bachelor of Science in Computer Science",
+      duration: "May 2018 - Present",
       desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
+      "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    descBullets: ["Became firmly accustomed to learning school topics by myself due to the nature of NOUN being an open and distant learning institute. This has solidified my ability to lead myself and others, stay self motivated and built the remote working culture I now enjoy"],
+    },
+    // {
+    //   schoolName: "Stanford University",
+    //   logo: require("./assets/images/stanfordLogo.png"),
+    //   subHeader: "Bachelor of Science in Computer Science",
+    //   duration: "September 2013 - April 2017",
+    //   desc:
+    //     "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+    // },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -131,18 +154,26 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "80%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "60%",
     },
     {
-      Stack: "Programming",
-      progressPercentage: "90%"
-    }
+      Stack: "Algorithmic Programming",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "Leadership",
+      progressPercentage: "85%",
+    },
+    {
+      Stack: "Collaboration",
+      progressPercentage: "90%",
+    },
   ],
-  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -151,36 +182,44 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
-      desc:
-        "Changing lives of developers one line of code at a time.",
-      descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
-      ]
-    },
-    {
       role: "Product Owner (PSD2)",
       company: "Erste Bank",
       companylogo: require("./assets/images/ersteLogo.jpg"),
       date: "July 2019 – September 2020",
       desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements.",
     },
+
     {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
+      role: "Junior FrontEnd Developer",
+      company: "LearnFactory",
+      companylogo: require("./assets/images/LEARNFACTORY.png"),
       date: "November 2018 – July 2019",
       desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
-    }
-  ]
+        "Implemented and Designed several Web and Mobile applications softwares for both clients and corperate bodies ",
+    },
+    {
+      role: "FrontEnd developer",
+      company: "ESocial",
+      companylogo: require("./assets/images/Esocial.svg"),
+      date: "April 2021 – Present",
+      desc:
+        "I've conducted internal audit making sure the organization is compliant with the GDPR.",
+    },
+    {
+      role: "Software Engineer",
+      company: "Clever Programmer",
+      companylogo: require("./assets/images/cpLogo.png"),
+      date: "September 2020 – Present",
+      desc: "Changing lives of developers one line of code at a time.",
+      descBullets: [
+        "Custom building applications",
+        "Coaching",
+        "Streaming live on YouTube",
+        "Creating tutorials",
+      ],
+    },
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -188,9 +227,9 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "BlessedEmoefe", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -200,30 +239,67 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/EMBED1.png"),
+      projectName: "EmBED",
+      projectDesc:
+        "EmBED is a social learning platform for kids that uses gamification and cartoons to make learning more fun. It also provides access to quality education for all children.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "fa"
-        }
+          url: "fa",
+        },
         //  you can add extra buttons here.
-      ]
+      ],
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/chike-trivia.png"),
+      projectName: "Chike Trivia",
+      projectDesc:
+        "A credit building trivia game and digital banking platform that rewards users with cash, digital currency and a simplified banking experience",
       footerLink: [
         {
           name: "Visit Website",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/Ewitness.png"),
+      projectName: "EWitnex",
+      projectDesc:
+        "Ewitnex is an Event Paperless Management Software Technology that allows event hosts or planners to create,follow up on and  witness events",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/Esocial.svg"),
+      projectName: "ESocial",
+      projectDesc:
+        "Esocial is a centralized platform for schools through embodying the school itself into one ecosystem consisting of students, administrators and clubs.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/iHub Logo/iHub Logo@2x.png"),
+      projectName: "InventHub",
+      projectDesc: "InventHub is a real-time social inventory which allows its users make use of available logistics functions in transfering products from manufacturer to customers.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "",
+        },
+      ],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -233,7 +309,6 @@ const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
   achievementsCards: [
     {
       title: "Google Code-In Finalist",
@@ -243,20 +318,17 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url:
-            ""
+          url: "",
         },
         {
           name: "Award Letter",
-          url:
-            ""
+          url: "",
         },
         {
           name: "Google Code-in Blog",
-          url:
-            ""
-        }
-      ]
+          url: "",
+        },
+      ],
     },
     {
       title: "Google Assistant Action",
@@ -266,10 +338,9 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Google Assistant Action",
-          url:
-            ""
-        }
-      ]
+          url: "",
+        },
+      ],
     },
 
     {
@@ -277,15 +348,15 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+      ],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -298,38 +369,53 @@ const blogSection = {
   blogs: [
     {
       url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+        "https://medium.com/learnfactory-nigeria/reacts-javascript-extension-jsx-78f059492c54?sk=a70515842f4ef6fc93c506ef0304f037",
+      title: "React’s Javascript Extension(JSX)",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Looking into Javascript XML, the Reactjs Javascript extension and why its so important in reactjs project development process",
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url:
+        "https://medium.com/learnfactory-nigeria/learn-git-and-github-as-a-beginner-a1e9e400a8e1?sk=fd3e8c5766aa322aa49b84ae16852514",
+      title: "Learn Git and Github as a Beginner",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+        "Git is a version control system created by Linus Torvalds in April 2005. A version-control is a system that records changes to a file or set of files over time so that you can recall specific versions later. Learn more by clicking on this card 🤓",
+    },
+    {
+      url:
+        "https://medium.com/learnfactory-nigeria/the-horizon-f97bc8fb65aa?sk=267873763cbf36b2248e459b8ec22880",
+      title: "The Horizon",
+      description:
+        "A short story about how I graduated from the LearnFactory internship/Bootcamp after 6months of intense hard-core programming and Development",
+    },
+    {
+      url:
+        "https://medium.com/learnfactory-nigeria/an-introduction-to-reactjs-1f18b5a50385?sk=6d0a0f1f9ddc3df1837d7ac602268270",
+      title: "An Introduction To Reactjs",
+      description:
+        " React, also known as ReactJS or React.js is an open-source JavaScript library for building responsive User Interfaces(UIs) for Web Applications. This powerful tool was created in 2011 when Jordan Walke, a software engineer at Facebook created the Javascript library called React.",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    ""
-  ),
+  subtitle: emoji("First Talk"),
 
   talks: [
     {
-      title: "",
-      subtitle: "",
-      slides_url: "",
-      event_url: ""
-    }
+      title: "JSX: The Javascript Extension",
+      image:require("./assets/images/Blessed.png"),
+      subtitle: "A Guide to Understanding JSX",
+      slides_url:
+        "https://docs.google.com/presentation/d/1wDsLb0Qcqb5kjWwQx3eDlcyoPM5h_yaRrfAoI5KkO2Q/edit?usp=sharing",
+      event_url: "https://photos.app.goo.gl/B8YsSqwroCwR3co96",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -339,25 +425,23 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
-  display: true // Set false to hide this section, defaults to true
+  podcast: [""],
+  display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "+2348124978076",
+  email_address: "blessedemoefe1122334455@gmail.com",
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "blemo_onoriode", //Replace "twitter" with your twitter username without @
+  display: true, // Set true to display this section, defaults to false
 };
 
 export {
@@ -375,5 +459,5 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
 };

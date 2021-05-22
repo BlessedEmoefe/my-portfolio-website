@@ -30,6 +30,7 @@ export default function Talks() {
                 key={i}
                 talkDetails={{
                   title: talk.title,
+                  image:talk.image,
                   subtitle: talk.subtitle,
                   slides_url: talk.slides_url,
                   event_url: talk.event_url,

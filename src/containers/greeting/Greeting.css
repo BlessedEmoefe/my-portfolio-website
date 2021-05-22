@@ -39,7 +39,7 @@
 }
 
 .greeting-text-p {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 40px;
 }
 
@@ -86,7 +86,7 @@
     font-size: 50px;
   }
   .greeting-text-p {
-    font-size: 20px;
+    font-size: 18.5px;
   }
 }
 @media (max-width: 768px) {

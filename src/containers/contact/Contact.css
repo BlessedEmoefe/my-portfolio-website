@@ -53,7 +53,7 @@
 /* Media Query */
 @media (max-width: 1380px), (max-width: 768px) {
   .contact-title {
-    font-size: 56px;
+    font-size: 50px;
     font-weight: 400;
     text-align: center;
   }
@@ -76,7 +76,7 @@
 
   .contact-detail,
   .contact-detail-email {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .contact-image-div {
