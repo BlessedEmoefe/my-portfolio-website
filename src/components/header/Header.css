@@ -166,5 +166,25 @@
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;
+  
   }
+}
+
+
+@media (max-width:767px){
+  .header {
+    font-size: 12px;
+  }
+  .header .logo {
+  font-size: 1.4em;
+}
+}
+
+@media (max-width:321px){
+  .header {
+    font-size: 12px;
+  }
+  .header .logo {
+  font-size: 1.2em;
+}
 }

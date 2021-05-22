@@ -313,7 +313,7 @@ const achievementSection = {
     {
       title: "Google Code-In Finalist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "First Nigerian to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
         {
@@ -403,12 +403,14 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji("First Talk"),
+  subtitle: emoji(
+    "First Talk at Reactor, the first Reactjs Developer Community in Abia State, Nigeria"
+  ),
 
   talks: [
     {
       title: "JSX: The Javascript Extension",
-      image:require("./assets/images/Blessed.png"),
+      image: require("./assets/images/Blessed.png"),
       subtitle: "A Guide to Understanding JSX",
       slides_url:
         "https://docs.google.com/presentation/d/1wDsLb0Qcqb5kjWwQx3eDlcyoPM5h_yaRrfAoI5KkO2Q/edit?usp=sharing",

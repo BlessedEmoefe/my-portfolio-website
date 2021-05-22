@@ -11,9 +11,7 @@ export default function Footer() {
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji("Made | Modified | Themed by ")}{" "}
-          <a href="https://github.com/saadpasta/developerFolio">
-            Blessed Emoefe Onoriode
-          </a>
+          <a href="https://linktr.ee/blessedemoefe">Blessed Emoefe Onoriode</a>
         </p>
       </div>
     </Fade>
