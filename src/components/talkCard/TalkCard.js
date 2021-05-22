@@ -13,6 +13,7 @@ export default function TalkCard({talkDetails}) {
           <div className="diagonal-fill"></div>
           <div className="talk-card-title-Wrapper">
             <img
+            alt="TalkPreview"
               src={talkDetails.image}
               className="TalkImg"
             />
