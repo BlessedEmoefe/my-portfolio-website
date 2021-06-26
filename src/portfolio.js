@@ -17,7 +17,7 @@ const greeting = {
     Blessed is an avid learner and teacher with a huge desire for personal development, collaboration and team building.`
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1jB_GqfcGoxKzV2D1J8HVBvLtGwj9HqhI/view?usp=sharing",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -181,35 +181,35 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
-      desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements.",
-    },
+    // {
+    //   role: "Product Owner (PSD2)",
+    //   company: "Erste Bank",
+    //   companylogo: require("./assets/images/ersteLogo.jpg"),
+    //   date: "July 2019 – September 2020",
+    //   desc:
+    //     "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements.",
+    // },
 
     {
       role: "Junior FrontEnd Developer",
       company: "LearnFactory",
-      companylogo: require("./assets/images/LEARNFACTORY.png"),
-      date: "November 2018 – July 2019",
+      companylogo: require("./assets/images/LEARN FACTORY.png"),
+      date: "April 2019 – Present",
       desc:
         "Implemented and Designed several Web and Mobile applications softwares for both clients and corperate bodies ",
     },
-    {
-      role: "FrontEnd developer",
-      company: "ESocial",
-      companylogo: require("./assets/images/Esocial.svg"),
-      date: "April 2021 – Present",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR.",
-    },
+    // {
+    //   role: "FrontEnd developer",
+    //   company: "ESocial",
+    //   companylogo: require("./assets/images/Esocial.svg"),
+    //   date: "April 2021 – Present",
+    //   desc:
+    //     "I've conducted internal audit making sure the organization is compliant with the GDPR.",
+    // },
     {
       role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
+      company: "Blemo's Software Devpreneur",
+      companylogo: require("./assets/images/Blessed-Emoefe.jpg"),
       date: "September 2020 – Present",
       desc: "Changing lives of developers one line of code at a time.",
       descBullets: [
@@ -229,14 +229,14 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "BlessedEmoefe", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED IN CREATING THEIR TECH",
   projects: [
     {
       image: require("./assets/images/EMBED1.png"),
@@ -263,30 +263,30 @@ const bigProjects = {
         },
       ],
     },
-    {
-      image: require("./assets/images/Ewitness.png"),
-      projectName: "EWitnex",
-      projectDesc:
-        "Ewitnex is an Event Paperless Management Software Technology that allows event hosts or planners to create,follow up on and  witness events",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "",
-        },
-      ],
-    },
-    {
-      image: require("./assets/images/Esocial.svg"),
-      projectName: "ESocial",
-      projectDesc:
-        "Esocial is a centralized platform for schools through embodying the school itself into one ecosystem consisting of students, administrators and clubs.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "",
-        },
-      ],
-    },
+    // {
+    //   image: require("./assets/images/Ewitness.png"),
+    //   projectName: "EWitnex",
+    //   projectDesc:
+    //     "Ewitnex is an Event Paperless Management Software Technology that allows event hosts or planners to create,follow up on and  witness events",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "",
+    //     },
+    //   ],
+    // },
+    // {
+    //   image: require("./assets/images/Esocial.svg"),
+    //   projectName: "ESocial",
+    //   projectDesc:
+    //     "Esocial is a centralized platform for schools through embodying the school itself into one ecosystem consisting of students, administrators and clubs.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "",
+    //     },
+    //   ],
+    // },
     {
       image: require("./assets/images/iHub Logo/iHub Logo@2x.png"),
       projectName: "InventHub",
@@ -356,7 +356,7 @@ const achievementSection = {
       ],
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -443,7 +443,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "blemo_onoriode", //Replace "twitter" with your twitter username without @
-  display: true, // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 
 export {
