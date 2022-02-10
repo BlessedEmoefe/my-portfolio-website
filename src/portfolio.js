@@ -17,7 +17,7 @@ const greeting = {
     Blessed is an avid learner and teacher with a huge desire for personal development, collaboration and team building.`
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1jB_GqfcGoxKzV2D1J8HVBvLtGwj9HqhI/view?usp=sharing",
+    "https://docs.google.com/document/d/1XGA4WuTv40j7x7iT6abW4UJ-_1oaLW70S643ROMCa8A/edit?usp=sharing",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -132,7 +132,7 @@ const educationInfo = {
       subHeader: "Anticipating Bachelor of Science in Computer Science",
       duration: "May 2018 - Present",
       desc:
-      "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      "Ranked top 10% in the program. Took courses on Software Engineering, Web Security, Operating Systems, ...",
     descBullets: ["Became firmly accustomed to learning school topics by myself due to the nature of NOUN being an open and distant learning institute. This has solidified my ability to lead myself and others, stay self motivated and built the remote working culture I now enjoy"],
     },
     // {
@@ -150,7 +150,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
