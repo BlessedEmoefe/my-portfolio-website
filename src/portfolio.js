@@ -12,7 +12,7 @@ const greeting = {
   username: "Blessed Emoefe Onoriode",
   title: "Hello, I'm Blessed",
   subTitle: emoji(
-    `A passionate and creative Web and Mobile Developer 🚀 having over two years of experience in designing and building industry-standard applications according to specifications using many cool libraries and frameworks. 
+    `A passionate and creative Web and Mobile Developer 🚀 having over four years of experience in designing and building industry-standard applications according to specifications using many cool libraries and frameworks. 
 
     Blessed is an avid learner and teacher with a huge desire for personal development, collaboration and team building.`
   ),
@@ -106,8 +106,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire",
     },
     {
-      skillName: " ",
-      fontAwesomeClassname: " ",
+      skillName: "TailwindCSS ",
+      fontAwesomeClassname: "fa-paintbrush-fine",
     },
     {
       skillName: " ",
@@ -173,7 +173,7 @@ const techStack = {
       progressPercentage: "90%",
     },
   ],
-  displayCodersrank: true, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -191,23 +191,17 @@ const workExperiences = {
     // },
 
     {
-      role: "Junior FrontEnd Developer",
+      role: "Fullstack Frontend Engineer",
       company: "LearnFactory",
       companylogo: require("./assets/images/LEARN FACTORY.png"),
-      date: "April 2019 – Present",
+      date: "April 2019 – October 2021",
       desc:
-        "Implemented and Designed several Web and Mobile applications softwares for both clients and corperate bodies ",
+        "• Led the development of a financial trivia software and all its features using React Native, Redux, Apollo Client and GraphQl",
+"• Developed project design documents, architecture breakdown and other resources to enable better the project understanding",
+"• Implemented tests, development and deployment of various websites all through design and development using Nextjs etc ",
     },
-    // {
-    //   role: "FrontEnd developer",
-    //   company: "ESocial",
-    //   companylogo: require("./assets/images/Esocial.svg"),
-    //   date: "April 2021 – Present",
-    //   desc:
-    //     "I've conducted internal audit making sure the organization is compliant with the GDPR.",
-    // },
     {
-      role: "Software Engineer",
+      role: "Software Engineering Instructor",
       company: "Blemo's Software Devpreneur",
       companylogo: require("./assets/images/Blessed-Emoefe.jpg"),
       date: "September 2020 – Present",
@@ -219,6 +213,17 @@ const workExperiences = {
         "Creating tutorials",
       ],
     },
+    {
+      role: "Software Engineer",
+      company: "Nevada Bridge Tv",
+      companylogo: require("./assets/images/nevad_bridge_logo.png"),
+      date: "October 2021 – Present",
+      desc:
+        "• Implemented tests, authentication and contestant features in the Nevada Bridge Tv software products for over 60,000 users",
+"• Built UI components in React.js and React Native for new optimization features",
+"• Designed and implemented core features into native modules in React Native to optimise mobile app performance. etc",
+    },
+    
   ],
 };
 
