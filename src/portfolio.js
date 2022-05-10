@@ -195,10 +195,10 @@ const workExperiences = {
       company: "LearnFactory",
       companylogo: require("./assets/images/LEARN FACTORY.png"),
       date: "April 2019 – October 2021",
-      desc:
+      desc:[
         "• Led the development of a financial trivia software and all its features using React Native, Redux, Apollo Client and GraphQl",
 "• Developed project design documents, architecture breakdown and other resources to enable better the project understanding",
-"• Implemented tests, development and deployment of various websites all through design and development using Nextjs etc ",
+"• Implemented tests, development and deployment of various websites all through design and development using Nextjs etc ",]
     },
     {
       role: "Software Engineering Instructor",
@@ -218,10 +218,10 @@ const workExperiences = {
       company: "Nevada Bridge Tv",
       companylogo: require("./assets/images/nevad_bridge_logo.png"),
       date: "October 2021 – Present",
-      desc:
+      desc:[
         "• Implemented tests, authentication and contestant features in the Nevada Bridge Tv software products for over 60,000 users",
 "• Built UI components in React.js and React Native for new optimization features",
-"• Designed and implemented core features into native modules in React Native to optimise mobile app performance. etc",
+"• Designed and implemented core features into native modules in React Native to optimise mobile app performance. etc",]
     },
     
   ],
