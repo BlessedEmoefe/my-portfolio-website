@@ -17,7 +17,7 @@ const greeting = {
     Blessed is an avid learner and teacher with a huge desire for personal development, collaboration and team building.`
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1XGA4WuTv40j7x7iT6abW4UJ-_1oaLW70S643ROMCa8A/edit?usp=sharing",
+    "https://docs.google.com/document/d/1P2Tqow6KmgYwkwXiV_dh_eWeaAg9zhLBL57KG6QUiH0/edit?usp=sharing",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -132,8 +132,10 @@ const educationInfo = {
       subHeader: "Anticipating Bachelor of Science in Computer Science",
       duration: "May 2018 - Present",
       desc:
-      "Ranked top 10% in the program. Took courses on Software Engineering, Web Security, Operating Systems, ...",
-    descBullets: ["Became firmly accustomed to learning school topics by myself due to the nature of NOUN being an open and distant learning institute. This has solidified my ability to lead myself and others, stay self motivated and built the remote working culture I now enjoy"],
+        "Ranked top 10% in the program. Took courses on Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: [
+        "Became firmly accustomed to learning school topics by myself due to the nature of NOUN being an open and distant learning institute. This has solidified my ability to lead myself and others, stay self motivated and built the remote working culture I now enjoy",
+      ],
     },
     // {
     //   schoolName: "Stanford University",
@@ -195,10 +197,11 @@ const workExperiences = {
       company: "LearnFactory",
       companylogo: require("./assets/images/LEARN FACTORY.png"),
       date: "April 2019 – October 2021",
-      desc:[
-        "• Led the development of a financial trivia software and all its features using React Native, Redux, Apollo Client and GraphQl",
-"• Developed project design documents, architecture breakdown and other resources to enable better the project understanding",
-"• Implemented tests, development and deployment of various websites all through design and development using Nextjs etc ",]
+      descBullets: [
+        "Led the development of a financial trivia software and all its features using React Native, Redux, Apollo Client and GraphQl",
+        "Developed project design documents, architecture breakdown and other resources to enable better the project understanding",
+        "Implemented tests, development and deployment of various websites all through design and development using Nextjs etc ",
+      ],
     },
     {
       role: "Software Engineering Instructor",
@@ -218,12 +221,12 @@ const workExperiences = {
       company: "Nevada Bridge Tv",
       companylogo: require("./assets/images/nevad_bridge_logo.png"),
       date: "October 2021 – Present",
-      desc:[
-        "• Implemented tests, authentication and contestant features in the Nevada Bridge Tv software products for over 60,000 users",
-"• Built UI components in React.js and React Native for new optimization features",
-"• Designed and implemented core features into native modules in React Native to optimise mobile app performance. etc",]
+      descBullets: [
+        "Implemented tests, authentication and contestant features in the Nevada Bridge Tv software products for over 60,000 users ",
+        "Built UI components in React.js and React Native for new optimization features",
+        "Designed and implemented core features into native modules in React Native to optimise mobile app performance. etc",
+      ],
     },
-    
   ],
 };
 
@@ -244,30 +247,74 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED IN CREATING THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/EMBED1.png"),
-      projectName: "EmBED",
+      image: require("./assets/images/nevad_bridge_logo.png"),
+      projectName: "Nevada Bridge Tv Mobile App",
       projectDesc:
-        "EmBED is a social learning platform for kids that uses gamification and cartoons to make learning more fun. It also provides access to quality education for all children.",
+        "Nevada Bridge TV provides premium content for its subscribers in the most affordable and comfortable fashion. The company is a part of the tech community enhancing entertainment with technology.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "fa",
+          name: "Download Android App",
+          url:
+            "https://play.google.com/store/apps/details?id=com.enprohsoft.app.nevadabridgetv&hl=en&gl=US",
+        },
+        {
+          name: "Download IOS App",
+          url: "https://apps.apple.com/us/app/nevada-bridge-tv/id1337580110",
         },
         //  you can add extra buttons here.
       ],
     },
     {
-      image: require("./assets/images/chike-trivia.png"),
-      projectName: "Chike Trivia",
+      image: require("./assets/images/nevad_bridge_logo.png"),
+      projectName: "Nevada Bridge Tv Web Platform",
       projectDesc:
-        "A credit building trivia game and digital banking platform that rewards users with cash, digital currency and a simplified banking experience",
+        "Nevada Bridge TV provides premium content for its subscribers in the most affordable and comfortable fashion. The company is a part of the tech community enhancing entertainment with technology.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "",
+          url: "https://nevadabridgetv.com/",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
+    // {
+    //   image: require("./assets/images/EMBED1.png"),
+    //   projectName: "EmBED",
+    //   projectDesc:
+    //     "EmBED is a social learning platform for kids that uses gamification and cartoons to make learning more fun. It also provides access to quality education for all children.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "fa",
+    //     },
+    //     //  you can add extra buttons here.
+    //   ],
+    // },
+
+    {
+      image: require("./assets/images/logo.png"),
+      projectName: "DeepTechnology Website",
+      projectDesc:
+        "DeepTechnology is a software development consultancy and engineering company that delivers cutting edge solutions for global organisations and technology startups. They have been helping companies and established brands reimagine their business through digitalisation.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.verydeeptech.com/",
         },
       ],
     },
+    // {
+    //   image: require("./assets/images/chike-trivia.png"),
+    //   projectName: "Chike Trivia",
+    //   projectDesc:
+    //     "A credit building trivia game and digital banking platform that rewards users with cash, digital currency and a simplified banking experience",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "",
+    //     },
+    //   ],
+    // },
     // {
     //   image: require("./assets/images/Ewitness.png"),
     //   projectName: "EWitnex",
@@ -281,10 +328,10 @@ const bigProjects = {
     //   ],
     // },
     // {
-    //   image: require("./assets/images/Esocial.svg"),
-    //   projectName: "ESocial",
+    //   image: require("./assets/images/iHub Logo/iHub Logo@2x.png"),
+    //   projectName: "InventHub",
     //   projectDesc:
-    //     "Esocial is a centralized platform for schools through embodying the school itself into one ecosystem consisting of students, administrators and clubs.",
+    //     "InventHub is a real-time social inventory which allows its users make use of available logistics functions in transfering products from manufacturer to customers.",
     //   footerLink: [
     //     {
     //       name: "Visit Website",
@@ -292,17 +339,6 @@ const bigProjects = {
     //     },
     //   ],
     // },
-    {
-      image: require("./assets/images/iHub Logo/iHub Logo@2x.png"),
-      projectName: "InventHub",
-      projectDesc: "InventHub is a real-time social inventory which allows its users make use of available logistics functions in transfering products from manufacturer to customers.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "",
-        },
-      ],
-    },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
