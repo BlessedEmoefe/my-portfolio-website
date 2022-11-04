@@ -30,8 +30,8 @@ const socialMediaLinks = {
   gmail: "blessedemoefe1122334455@gmail.com",
   gitlab: "https://gitlab.com/blemo",
   medium: "https://medium.com/@blessedemoefe",
-  instagram: "https://www.instagram.com/blessed_emoefe/",
-  twitter: "https://twitter.com/blemo_onoriode",
+  instagram: "https://www.instagram.com/blessed_onoriode/",
+  twitter: "https://twitter.com/BlessedOnoriode",
   facebook: false,
   stackoverflow: false,
   display: true, // Set true to display this section, defaults to false
