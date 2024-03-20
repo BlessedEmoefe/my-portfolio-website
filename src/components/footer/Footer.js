@@ -10,7 +10,7 @@ export default function Footer() {
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made | Modified | Themed by ")}{" "}
+          {emoji("Copyright© 2024")}{" "}
           <a href="https://linktr.ee/blessedemoefe">Blessed Emoefe Onoriode</a>
         </p>
       </div>

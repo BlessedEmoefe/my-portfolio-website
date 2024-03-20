@@ -51,7 +51,7 @@ export default function Greeting() {
             {
               <img
                 alt="man sitting on table"
-                src={require("../../assets/images/GreetingsVector.svg")}
+                src={require("../../assets/images/Blessed.png")}
               ></img>
             }
           </div>

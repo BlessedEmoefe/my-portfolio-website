@@ -92,8 +92,8 @@
 .experience-text-role {
   text-align: center;
   color: black;
-  font-weight: 700;
-  font-size: 25px;
+  font-weight: 800;
+  font-size: 19px;
   margin: 0px;
   padding-top: 1.5rem;
   line-height: normal;
@@ -101,22 +101,29 @@
 .dark-mode-text {
   color: white !important;
 }
+
 .experience-text-date {
   text-align: center;
   color: black;
-  font-size: 20px;
+  font-size: 17px;
   margin: 0px;
-  padding-top: 1rem;
+  padding-top: 0.6rem;
   font-weight: 600;
 }
 
 .experience-text-desc {
   text-align: center;
+  font-size: 16px;
 }
 
 .experience-text-details {
-  padding: 1.5rem;
+  padding: 1.5rem 0.5rem;
   margin-top: 2rem;
+}
+ul {
+  margin: 0;
+  padding: 1.5rem;
+  font-size: 17px;
 }
 
 /* Media Query */
