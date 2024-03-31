@@ -142,8 +142,7 @@ const educationInfo = {
       logo: require("./assets/images/LEARNFACTORY.png"),
       subHeader: "Fullstack Web and Mobile Development",
       duration: "Apr 2019 - Oct 2019",
-      desc:
-        "6 months Web and Mobile Development bootcamp...",
+      desc: "6 months Web and Mobile Development bootcamp...",
       // descBullets: [
       //   " Designed and implemented a productivity tracking system to boost human efficiency using Reactjs and other technologies",
       //   "Wrote and published tech-based articles on different programming technologies",
@@ -418,7 +417,6 @@ const bigProjects = {
       ],
     },
 
-  
     // {
     //   image: require("./assets/images/iHub Logo/iHub Logo@2x.png"),
     //   projectName: "InventHub",
@@ -446,7 +444,7 @@ const bigProjects = {
     //   ],
     // },
 
-  // {
+    // {
     //   image: require("./assets/images/chike-trivia.png"),
     //   projectName: "Chike Trivia",
     //   projectDesc:

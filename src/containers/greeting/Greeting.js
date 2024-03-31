@@ -38,7 +38,10 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <Button
+                  text="Contact me"
+                  href="https://calendly.com/blessedemoefe1122334455/15min"
+                />
                 <Button
                   text="See my resume"
                   newTab={true}
