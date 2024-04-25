@@ -130,7 +130,7 @@ const educationInfo = {
       schoolName: "National Open University of Nigeria",
       logo: require("./assets/images/Noun.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "May 2018 - 2022",
+      // duration: "May 2018 - 2022",
       desc:
         "Ranked top 10% in the program. Took courses on Software Engineering, Web Security, Operating Systems, ...",
       descBullets: [
